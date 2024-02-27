@@ -1,0 +1,37 @@
+.bgcol{  background-image: linear-gradient(to right, red , yellow);font-family: Georgia, 'Times New Roman', Times, serif;}
+.bgcloud{background-color: rgb(7, 7, 7);padding: 10px 10px; color:white;border-radius: 50%;font-size: 20px ;margin-bottom: -8px;}
+.marg{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;letter-spacing: 3px;}
+.paraknow{font-size: 12px;}
+.bginput{background-color: transparent;border:none; color: white;}
+::placeholder{color:white !important;font-size:15px;padding-left: 20px !important;}
+.box{box-shadow: rgba(0, 0, 0, 0.664) 0px 5px 15px;border-radius:50px;}
+.bginput:focus{
+background-color: transparent;
+box-shadow: none !important;
+}
+.bgbtn{color:white; font-size: 20px;}
+.bgbtn:focus{
+    outline:none !important;
+    border: none !important;
+    
+}
+.sun{
+animation: iconanimation 3s infinite;}
+@keyframes iconanimation {
+    from{
+        transform: scale(0.5,0.5);
+       
+    }
+    to{
+        transform:scale(1.5,1.5);
+        
+    }
+
+    
+    
+}
+.border1{border-radius: 20px;background: rgba(15, 15, 15, 0.411);letter-spacing: 1px;transition: all 3s;}
+.bordlive{border-radius: 20px;background-color: white;color:orange;}
+.pscustom{padding-left: 40px;}
+
+

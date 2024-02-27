@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url(./image/matt-hardy-6ArTTluciuA-unsplash.jpg);width:100%;height: 100%;background-repeat: no-repeat;background-size:cover;
+  animation:change 40s infinite;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: rgb(216, 188, 235);
+ 
+  height: 100vh; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@keyframes change {
+  5%{
+    background-image: url(./image/matt-hardy-6ArTTluciuA-unsplash.jpg);
+  }
+  15%{
+    background-image: url(./image/neom-AdkJ-LgpTrE-unsplash.jpg);
+
+  }
+  30%{
+    background-image: url(./image/kevin-lanceplaine-sO-JmQj95ec-unsplash.jpg);
+
+  }
+45%{
+    background-image: url(./image/qingbao-meng-01_igFr7hd4-unsplash.jpg);
+
+  }
+  60%{
+    background-image: url(./image/john-towner-CakC6u4d95g-unsplash.jpg);
+
+  }
+  75%{
+    background-image: url(./image/john-fowler-aaIN3y2zcMQ-unsplash.jpg);
+
+  }
+  100%{
+    background-image: url(./image/leonard-cotte-c1Jp-fo53U8-unsplash.jpg);
+
+  }
+}
